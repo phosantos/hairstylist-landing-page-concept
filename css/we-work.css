@@ -1,0 +1,31 @@
+.we-work {
+  background-image: url("../img/image-11.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 484px;
+  padding-bottom: 108px;
+  text-align: center;
+}
+
+.we-work h1 {
+  font-family: "Lexend Deca";
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 66px;
+  letter-spacing: -2.25px;
+  color: #ffffff;
+}
+
+.we-work p {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.4px;
+  color: #ffffff;
+  margin-top: 16px;
+  max-width: 393px;
+  margin-left: auto;
+  margin-right: auto;
+}

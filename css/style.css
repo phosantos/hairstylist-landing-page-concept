@@ -1,0 +1,23 @@
+@import "./header.css";
+@import "./hero.css";
+@import "./we-love.css";
+@import "./services.css";
+@import "./we-work.css";
+@import "./lets-make.css";
+@import "./footer.css";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}

@@ -1,0 +1,126 @@
+.services-bg {
+  background: #dfccc2;
+}
+
+.services {
+  padding-top: 89px;
+  display: grid;
+  grid-template-columns: max-content;
+  justify-content: center;
+  padding-bottom: 0px;
+}
+
+.services h1 {
+  font-family: "Lexend Deca";
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -1.5px;
+  color: #ffffff;
+}
+
+.services p {
+  font-family: "Lexend Deca";
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -1.125px;
+  color: #ffffff;
+}
+
+.services .items {
+  margin-top: 106px;
+  margin-bottom: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 150px;
+}
+
+.services .item-2 {
+  margin-top: 145px;
+  padding-bottom: 274px;
+  position: relative;
+  z-index: 1;
+}
+
+.services .item-2::after {
+  content: "";
+  background: url("../img/vector-5.svg") no-repeat;
+  width: 219px;
+  height: 209px;
+  display: block;
+  position: absolute;
+  top: 476px;
+  left: 52px;
+  z-index: -1;
+}
+
+.services .item-2 .text {
+  text-align: right;
+  position: absolute;
+  top: 512px;
+  left: -266px;
+}
+
+.services .item-2 h2 {
+  font-family: "Lexend Deca";
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  color: #ffffff;
+  width: 317px;
+}
+
+.services .item-2 a {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.4px;
+  color: #ffffff;
+  display: inline-block;
+  transition: 0.3s;
+  margin-top: 32px;
+}
+
+.services .item-2 a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #f95454;
+  margin-top: 5.5px;
+}
+.services .item-2 a:hover {
+  color: #f95454;
+}
+
+.services .item-3 {
+  margin-top: 87px;
+  position: relative;
+  z-index: 1;
+}
+
+.services .item-3::after {
+  content: "";
+  background: url("../img/abstract-4.svg") no-repeat;
+  width: 225px;
+  height: 178px;
+  display: block;
+  position: absolute;
+  top: 127px;
+  left: 138px;
+  z-index: -1;
+}
+
+.services .item-1 p,
+.services .item-3 p {
+  margin-top: 32px;
+}
+
+.services .item-2 p {
+  margin-bottom: 32px;
+}

@@ -1,0 +1,168 @@
+/*hero-1*/
+
+.hero-bg {
+  background: #dfccc2;
+  box-shadow: inset 0 -129px #c5cebd;
+}
+
+.hero-1 {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 137px;
+  padding-left: 49px;
+  padding-right: 49px;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+.hero-1 .text {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-1 h1 {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  color: #ffffff;
+  width: 400px;
+  position: absolute;
+  left: -285px;
+  top: 55px;
+  z-index: 99;
+}
+
+.hero-1 p {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6e645f;
+  width: 194px;
+  position: absolute;
+  top: 280px;
+  left: 445px;
+}
+
+.hero-1 .imgs {
+  position: relative;
+}
+
+.hero-1 .first-img {
+  width: 412px;
+  height: 459px;
+  border-radius: 2.7px;
+}
+
+.hero-1 .second-img {
+  width: 243px;
+  height: 243px;
+  position: absolute;
+  top: 8px;
+  left: 347px;
+}
+
+.hero-1 .detail-1 {
+  position: absolute;
+  top: -80px;
+  left: 300px;
+  z-index: -1;
+}
+
+.hero-1 .detail-2 {
+  position: absolute;
+  top: 317px;
+  left: 256px;
+  z-index: -1;
+}
+
+.hero-1 .detail-3 {
+  position: absolute;
+  top: 316px;
+  left: -89px;
+  z-index: -1;
+}
+
+/* hero-2 */
+
+.hero-2 {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+
+.hero-2 h1 {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  color: #ffffff;
+  width: 400px;
+  grid-column: 2;
+}
+
+.hero-2 p {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6e645f;
+  width: 387px;
+  grid-column: 2;
+  margin-top: 20px;
+}
+
+.hero-2 .image-1 {
+  height: 385px;
+  width: 312px;
+  border-radius: 2.7px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-2 .image-1::after {
+  content: "";
+  display: block;
+  background: url("../img/vector-2.svg") no-repeat;
+  width: 346px;
+  height: 342px;
+  overflow: hidden;
+  position: absolute;
+  top: 151px;
+  left: -100px;
+  z-index: -1;
+}
+
+.hero-2 .image-2 {
+  height: 530px;
+  width: 365px;
+  border-radius: 2.7px;
+  justify-self: end;
+  margin-top: 164px;
+  margin-bottom: 21px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-2 .image-2::after {
+  content: "";
+  display: block;
+  background: url("../img/vector-3.svg") no-repeat;
+  width: 492px;
+  height: 369px;
+  position: absolute;
+  top: 81px;
+  left: -326px;
+  z-index: -1;
+}
+
+.hero-2 .text {
+  margin-top: 145px;
+}

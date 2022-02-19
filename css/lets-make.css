@@ -1,0 +1,106 @@
+.lets-make-bg {
+  background: #c2b8cc;
+}
+
+.lets-make {
+  text-align: center;
+  padding-top: 253px;
+  padding-bottom: 220px;
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+}
+
+.lets-make .image-1 {
+  width: 255px;
+  height: 229px;
+  position: absolute;
+  top: 604px;
+  left: 294px;
+  z-index: 2;
+}
+
+.lets-make .image-2 {
+  width: 458px;
+  height: 510px;
+  justify-self: center;
+  position: relative;
+  z-index: 1;
+}
+
+.lets-make .image-2::before {
+  content: "";
+  background: url("../img/abstract-5.svg") no-repeat;
+  display: block;
+  width: 269px;
+  height: 255px;
+  position: absolute;
+  top: 167px;
+  left: -218px;
+  z-index: -1;
+}
+
+.lets-make .image-2::after {
+  content: "";
+  background: url("../img/vector-6.svg") no-repeat;
+  display: block;
+  width: 236px;
+  height: 295px;
+  position: absolute;
+  top: 70px;
+  left: 310px;
+  z-index: -1;
+}
+
+.lets-make .image-3 {
+  width: 303px;
+  height: 252px;
+  position: absolute;
+  top: 151px;
+  left: 863px;
+  z-index: 2;
+}
+
+.lets-make .text {
+  text-align: left;
+  position: absolute;
+  top: 509px;
+  left: 885px;
+  z-index: 2;
+}
+
+.lets-make .text h2 {
+  font-family: "Lexend Deca";
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  color: #ffffff;
+  width: 273px;
+}
+
+.lets-make .text a {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.4px;
+  color: #ffffff;
+  display: inline-block;
+  transition: 0.3s;
+  margin-top: 32px;
+}
+
+.lets-make .text a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #f95454;
+  margin-top: 5.5px;
+}
+.lets-make .text a:hover {
+  color: #f95454;
+}

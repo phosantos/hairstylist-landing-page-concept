@@ -1,0 +1,74 @@
+.footer-bg {
+  background-color: #dfccc2;
+}
+
+.footer {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 100px 85px 100px 115px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 75px;
+}
+
+.links a {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 50px;
+  letter-spacing: -0.4px;
+  color: #ffffff;
+}
+
+.links a:hover {
+  color: #f95454;
+}
+
+.apply {
+  text-align: right;
+}
+
+.apply h1 {
+  font-family: "Lexend Deca";
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -1.125px;
+  color: #ffffff;
+}
+
+.apply a {
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -1.125px;
+  color: #f95454;
+  display: inline-block;
+  margin-top: 16px;
+  transition: 0.3s;
+}
+
+.apply a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: #f95454;
+  margin-top: 7px;
+  transition: 0.3s;
+}
+
+.apply a:hover {
+  color: #ffffff;
+}
+
+.apply a:hover::after {
+  background: #ffffff;
+}
